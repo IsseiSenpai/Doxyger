@@ -1465,8 +1465,8 @@ div.ingroups a
 
 div.header
 {
-        background-image: var(--header-gradient-image);
-        background-repeat:repeat-x;
+    background-image: var(--header-gradient-image);
+    background-repeat:repeat-x;
 	background-color: var(--header-background-color);
 	margin:  0px;
 	border-bottom: 1px solid var(--header-separator-color);
