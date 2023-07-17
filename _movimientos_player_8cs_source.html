@@ -1,0 +1,198 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.7"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>DelCastellano: Archivo de código fuente C:/Users/Kenny/Desktop/Scripts/Scripts/MovimientosPlayer.cs</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="Logo-de-la-app2.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">DelCastellano<span id="projectnumber">&#160;1</span>
+   </div>
+   <div id="projectbrief">Documentacion del Videojuego educativo &quot;DelCastellano</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.9.7 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_4edcbb236dfd51dd81727243a38df6a0.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_8e403af5431a0a0134b2947acada3d25.html">Scripts</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle"><div class="title">MovimientosPlayer.cs</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_movimientos_player_8cs.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="keyword">using </span>System.Collections;</div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="keyword">using </span>System.Collections.Generic;</div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="keyword">using </span>UnityEngine;</div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="class_movimientos_player.html">    8</a></span><span class="keyword">public</span> <span class="keyword">class </span><a class="code hl_class" href="class_movimientos_player.html">MovimientosPlayer</a> : MonoBehaviour</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>{</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="class_movimientos_player.html#a93d58ac11dd1bca94939a8d4d1bdd1f4">   10</a></span>    <span class="keyword">public</span> <span class="keywordtype">bool</span> <a class="code hl_variable" href="class_movimientos_player.html#a93d58ac11dd1bca94939a8d4d1bdd1f4">sePuedeMover</a> = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    [SerializeField] <span class="keyword">private</span> Vector2 velocidadRebote;</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <span class="keyword">private</span> <span class="keywordtype">float</span> horizontaMove = 0f;</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="keyword">private</span> <span class="keywordtype">float</span> verticalMove = 0f;</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="class_movimientos_player.html#a22f4675db4b108e51b3cb6acfdca2969">   27</a></span>    <span class="keyword">public</span> <span class="keywordtype">float</span> <a class="code hl_variable" href="class_movimientos_player.html#a22f4675db4b108e51b3cb6acfdca2969">runSpeedHorizontal</a> = 2;</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="class_movimientos_player.html#a096a072d5f2d12c89a5aaf06d448790e">   32</a></span>    <span class="keyword">public</span> <span class="keywordtype">float</span> <a class="code hl_variable" href="class_movimientos_player.html#a096a072d5f2d12c89a5aaf06d448790e">runSpeed</a> = 2;</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="class_movimientos_player.html#aee9bacdcde68361cb2be3c626bc4945e">   37</a></span>    <span class="keyword">public</span> <span class="keywordtype">float</span> <a class="code hl_variable" href="class_movimientos_player.html#aee9bacdcde68361cb2be3c626bc4945e">JumpSpeed</a> = 5;</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="class_movimientos_player.html#a840eef33aa67fe6cab3f15a6a83c7d82">   42</a></span>    <span class="keyword">public</span> <span class="keywordtype">float</span> <a class="code hl_variable" href="class_movimientos_player.html#a840eef33aa67fe6cab3f15a6a83c7d82">DobleSalto</a> = 4f;</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="keyword">private</span> <span class="keywordtype">bool</span> ContSaltodoble;</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    Rigidbody2D rigidbody2d;</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="class_movimientos_player.html#abbde41d7f07499b0f7463bcf5404f96e">   57</a></span>    <span class="keyword">public</span> Joystick <a class="code hl_variable" href="class_movimientos_player.html#abbde41d7f07499b0f7463bcf5404f96e">joystick</a>;</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="class_movimientos_player.html#a2f4fad56b16a3d3ba6ff1097dba956aa">   62</a></span>    <span class="keyword">public</span> SpriteRenderer <a class="code hl_variable" href="class_movimientos_player.html#a2f4fad56b16a3d3ba6ff1097dba956aa">spriteRender</a>;</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno"><a class="line" href="class_movimientos_player.html#a462f89a5483dab23e4d5ad391d788f1b">   67</a></span>    <span class="keyword">public</span> Animator <a class="code hl_variable" href="class_movimientos_player.html#a462f89a5483dab23e4d5ad391d788f1b">animator</a>;</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    <span class="keywordtype">void</span> Start()</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    {</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>        rigidbody2d = GetComponent&lt;Rigidbody2D&gt;();</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    }</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    <span class="keywordtype">void</span> Update()</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>    {</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>        <a class="code hl_variable" href="class_movimientos_player.html#a462f89a5483dab23e4d5ad391d788f1b">animator</a>.SetBool(<span class="stringliteral">&quot;Run&quot;</span>, <span class="keyword">false</span>);</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>        <span class="comment">// animator.SetBool(&quot;Salto&quot;, false);</span></div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span> </div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>        <span class="keywordflow">if</span> (horizontaMove &gt; 0)</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>        {</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>            spriteRender.flipX = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>            <a class="code hl_variable" href="class_movimientos_player.html#a462f89a5483dab23e4d5ad391d788f1b">animator</a>.SetBool(<span class="stringliteral">&quot;Run&quot;</span>, <span class="keyword">true</span>);</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>            <a class="code hl_variable" href="class_movimientos_player.html#a462f89a5483dab23e4d5ad391d788f1b">animator</a>.SetBool(<span class="stringliteral">&quot;Salto&quot;</span>, <span class="keyword">true</span>);</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>        }</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span> </div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>        <span class="keywordflow">if</span> (horizontaMove &lt; 0)</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>        {</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>            spriteRender.flipX = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>            <a class="code hl_variable" href="class_movimientos_player.html#a462f89a5483dab23e4d5ad391d788f1b">animator</a>.SetBool(<span class="stringliteral">&quot;Run&quot;</span>, <span class="keyword">true</span>);</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span> </div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>        }</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="class_is_ground.html">IsGround</a>.<a class="code hl_variable" href="class_is_ground.html#a6da35c7bbbbb38d1b30fb219fc335ac4">isGround</a> == <span class="keyword">false</span>){</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>            <a class="code hl_variable" href="class_movimientos_player.html#a462f89a5483dab23e4d5ad391d788f1b">animator</a>.SetBool(<span class="stringliteral">&quot;Salto&quot;</span>,  <span class="keyword">true</span>);</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>            <a class="code hl_variable" href="class_movimientos_player.html#a462f89a5483dab23e4d5ad391d788f1b">animator</a>.SetBool(<span class="stringliteral">&quot;Run&quot;</span>,  <span class="keyword">false</span>);</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span>        }</div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="class_is_ground.html">IsGround</a>.<a class="code hl_variable" href="class_is_ground.html#a6da35c7bbbbb38d1b30fb219fc335ac4">isGround</a> == <span class="keyword">true</span>){</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>            <a class="code hl_variable" href="class_movimientos_player.html#a462f89a5483dab23e4d5ad391d788f1b">animator</a>.SetBool(<span class="stringliteral">&quot;Salto&quot;</span>,  <span class="keyword">false</span>);</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>            </div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>        }</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>    }</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span> </div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>    <span class="keywordtype">void</span> FixedUpdate()</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span>    {</div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="class_movimientos_player.html#a93d58ac11dd1bca94939a8d4d1bdd1f4">sePuedeMover</a>)</div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>        {</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>            horizontaMove = joystick.Horizontal * <a class="code hl_variable" href="class_movimientos_player.html#a22f4675db4b108e51b3cb6acfdca2969">runSpeedHorizontal</a>;</div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>            transform.position += <span class="keyword">new</span> Vector3(horizontaMove, 0, 0) * Time.deltaTime * <a class="code hl_variable" href="class_movimientos_player.html#a096a072d5f2d12c89a5aaf06d448790e">runSpeed</a>;</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>        }</div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>    }</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span> </div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno"><a class="line" href="class_movimientos_player.html#a0b939bacdfafb020e94c3b12eb7fe935">  125</a></span>    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_movimientos_player.html#a0b939bacdfafb020e94c3b12eb7fe935">Salto</a>()</div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>    {</div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="class_is_ground.html">IsGround</a>.<a class="code hl_variable" href="class_is_ground.html#a6da35c7bbbbb38d1b30fb219fc335ac4">isGround</a>)</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>        {</div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>        </div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>            ContSaltodoble = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>            rigidbody2d.velocity = <span class="keyword">new</span> Vector2(rigidbody2d.velocity.x, <a class="code hl_variable" href="class_movimientos_player.html#aee9bacdcde68361cb2be3c626bc4945e">JumpSpeed</a>);</div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>        }</div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>        <span class="keywordflow">else</span></div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>        {</div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>            <span class="keywordflow">if</span> (ContSaltodoble)</div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>            {</div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>                rigidbody2d.velocity = <span class="keyword">new</span> Vector2(rigidbody2d.velocity.x, <a class="code hl_variable" href="class_movimientos_player.html#a840eef33aa67fe6cab3f15a6a83c7d82">DobleSalto</a>);</div>
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span>                ContSaltodoble = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span>            }</div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>        }</div>
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span>    }</div>
+<div class="line"><a id="l00142" name="l00142"></a><span class="lineno">  142</span> </div>
+<div class="line"><a id="l00143" name="l00143"></a><span class="lineno"><a class="line" href="class_movimientos_player.html#a2f7c1420890baad9e4d7a21d422ae4c4">  143</a></span>    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_movimientos_player.html#a2f7c1420890baad9e4d7a21d422ae4c4">Rebote</a>(Vector2 puntoGolpe)</div>
+<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span>    {</div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span>        rigidbody2d.velocity = <span class="keyword">new</span> Vector2(-velocidadRebote.x * puntoGolpe.x, velocidadRebote.y);</div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>    }</div>
+<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>}</div>
+<div class="ttc" id="aclass_is_ground_html"><div class="ttname"><a href="class_is_ground.html">IsGround</a></div><div class="ttdoc">Clase que detecta si el objeto está en contacto con el suelo.</div><div class="ttdef"><b>Definition</b> <a href="_is_ground_8cs_source.html#l00008">IsGround.cs:9</a></div></div>
+<div class="ttc" id="aclass_is_ground_html_a6da35c7bbbbb38d1b30fb219fc335ac4"><div class="ttname"><a href="class_is_ground.html#a6da35c7bbbbb38d1b30fb219fc335ac4">IsGround.isGround</a></div><div class="ttdeci">static bool isGround</div><div class="ttdef"><b>Definition</b> <a href="_is_ground_8cs_source.html#l00013">IsGround.cs:13</a></div></div>
+<div class="ttc" id="aclass_movimientos_player_html"><div class="ttname"><a href="class_movimientos_player.html">MovimientosPlayer</a></div><div class="ttdoc">Clase que controla el movimiento y las acciones del jugador.</div><div class="ttdef"><b>Definition</b> <a href="_movimientos_player_8cs_source.html#l00008">MovimientosPlayer.cs:9</a></div></div>
+<div class="ttc" id="aclass_movimientos_player_html_a096a072d5f2d12c89a5aaf06d448790e"><div class="ttname"><a href="class_movimientos_player.html#a096a072d5f2d12c89a5aaf06d448790e">MovimientosPlayer.runSpeed</a></div><div class="ttdeci">float runSpeed</div><div class="ttdoc">Velocidad de movimiento general.</div><div class="ttdef"><b>Definition</b> <a href="_movimientos_player_8cs_source.html#l00032">MovimientosPlayer.cs:32</a></div></div>
+<div class="ttc" id="aclass_movimientos_player_html_a0b939bacdfafb020e94c3b12eb7fe935"><div class="ttname"><a href="class_movimientos_player.html#a0b939bacdfafb020e94c3b12eb7fe935">MovimientosPlayer.Salto</a></div><div class="ttdeci">void Salto()</div><div class="ttdoc">Realiza un salto, teniendo en cuenta si el jugador está en el suelo o en el aire.</div><div class="ttdef"><b>Definition</b> <a href="_movimientos_player_8cs_source.html#l00125">MovimientosPlayer.cs:125</a></div></div>
+<div class="ttc" id="aclass_movimientos_player_html_a22f4675db4b108e51b3cb6acfdca2969"><div class="ttname"><a href="class_movimientos_player.html#a22f4675db4b108e51b3cb6acfdca2969">MovimientosPlayer.runSpeedHorizontal</a></div><div class="ttdeci">float runSpeedHorizontal</div><div class="ttdoc">Velocidad de movimiento horizontal.</div><div class="ttdef"><b>Definition</b> <a href="_movimientos_player_8cs_source.html#l00027">MovimientosPlayer.cs:27</a></div></div>
+<div class="ttc" id="aclass_movimientos_player_html_a2f4fad56b16a3d3ba6ff1097dba956aa"><div class="ttname"><a href="class_movimientos_player.html#a2f4fad56b16a3d3ba6ff1097dba956aa">MovimientosPlayer.spriteRender</a></div><div class="ttdeci">SpriteRenderer spriteRender</div><div class="ttdoc">Componente SpriteRenderer utilizado para controlar el sprite del jugador.</div><div class="ttdef"><b>Definition</b> <a href="_movimientos_player_8cs_source.html#l00062">MovimientosPlayer.cs:62</a></div></div>
+<div class="ttc" id="aclass_movimientos_player_html_a2f7c1420890baad9e4d7a21d422ae4c4"><div class="ttname"><a href="class_movimientos_player.html#a2f7c1420890baad9e4d7a21d422ae4c4">MovimientosPlayer.Rebote</a></div><div class="ttdeci">void Rebote(Vector2 puntoGolpe)</div><div class="ttdef"><b>Definition</b> <a href="_movimientos_player_8cs_source.html#l00143">MovimientosPlayer.cs:143</a></div></div>
+<div class="ttc" id="aclass_movimientos_player_html_a462f89a5483dab23e4d5ad391d788f1b"><div class="ttname"><a href="class_movimientos_player.html#a462f89a5483dab23e4d5ad391d788f1b">MovimientosPlayer.animator</a></div><div class="ttdeci">Animator animator</div><div class="ttdoc">Animator utilizado para controlar las animaciones del jugador.</div><div class="ttdef"><b>Definition</b> <a href="_movimientos_player_8cs_source.html#l00067">MovimientosPlayer.cs:67</a></div></div>
+<div class="ttc" id="aclass_movimientos_player_html_a840eef33aa67fe6cab3f15a6a83c7d82"><div class="ttname"><a href="class_movimientos_player.html#a840eef33aa67fe6cab3f15a6a83c7d82">MovimientosPlayer.DobleSalto</a></div><div class="ttdeci">float DobleSalto</div><div class="ttdoc">Velocidad de salto adicional para el doble salto.</div><div class="ttdef"><b>Definition</b> <a href="_movimientos_player_8cs_source.html#l00042">MovimientosPlayer.cs:42</a></div></div>
+<div class="ttc" id="aclass_movimientos_player_html_a93d58ac11dd1bca94939a8d4d1bdd1f4"><div class="ttname"><a href="class_movimientos_player.html#a93d58ac11dd1bca94939a8d4d1bdd1f4">MovimientosPlayer.sePuedeMover</a></div><div class="ttdeci">bool sePuedeMover</div><div class="ttdef"><b>Definition</b> <a href="_movimientos_player_8cs_source.html#l00010">MovimientosPlayer.cs:10</a></div></div>
+<div class="ttc" id="aclass_movimientos_player_html_abbde41d7f07499b0f7463bcf5404f96e"><div class="ttname"><a href="class_movimientos_player.html#abbde41d7f07499b0f7463bcf5404f96e">MovimientosPlayer.joystick</a></div><div class="ttdeci">Joystick joystick</div><div class="ttdoc">Joystick utilizado para el control del movimiento.</div><div class="ttdef"><b>Definition</b> <a href="_movimientos_player_8cs_source.html#l00057">MovimientosPlayer.cs:57</a></div></div>
+<div class="ttc" id="aclass_movimientos_player_html_aee9bacdcde68361cb2be3c626bc4945e"><div class="ttname"><a href="class_movimientos_player.html#aee9bacdcde68361cb2be3c626bc4945e">MovimientosPlayer.JumpSpeed</a></div><div class="ttdeci">float JumpSpeed</div><div class="ttdoc">Velocidad de salto.</div><div class="ttdef"><b>Definition</b> <a href="_movimientos_player_8cs_source.html#l00037">MovimientosPlayer.cs:37</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.7
+</small></address>
+</body>
+</html>

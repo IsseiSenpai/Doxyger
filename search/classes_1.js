@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['scriptprincipal_0',['ScriptPrincipal',['../class_script_principal.html',1,'']]]
+  ['dañoplayer_0',['DañoPlayer',['../class_da_xC3_xB1o_player.html',1,'']]]
 ];

@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['cuadrodialogo_0',['CuadroDialogo',['../class_cuadro_dialogo.html',1,'']]],
-  ['cuadrodialogo_1',['cuadroDialogo',['../class_cuadro_dialogo.html#a973ae0588972b461e57924c74d222eb5',1,'CuadroDialogo.cuadroDialogo'],['../class_script_principal.html#a322bad0194b8760fafc7e9d34f345f1e',1,'ScriptPrincipal.cuadroDialogo']]],
-  ['cuadrodialogo_2ecs_2',['CuadroDialogo.cs',['../_cuadro_dialogo_8cs.html',1,'']]]
+  ['btngetdata_0',['btnGetData',['../class_prefs.html#a0897aa45ca2402d069571f3c870210ff',1,'Prefs']]],
+  ['btnsave_1',['btnSave',['../class_prefs.html#ac5a4bdfc4a1be0d1e7642a939d450b90',1,'Prefs']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['scriptprincipal_2ecs_0',['ScriptPrincipal.cs',['../_script_principal_8cs.html',1,'']]]
+  ['dañoplayer_2ecs_0',['DañoPlayer.cs',['../_da_xC3_xB1o_player_8cs.html',1,'']]]
 ];

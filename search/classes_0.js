@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['cuadrodialogo_0',['CuadroDialogo',['../class_cuadro_dialogo.html',1,'']]]
+  ['combateplayer_0',['CombatePlayer',['../class_combate_player.html',1,'']]]
 ];
