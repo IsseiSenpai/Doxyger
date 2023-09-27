@@ -80,18 +80,26 @@
   </ol>
 </details>
 
-### ¿Qué tipo de información puedo obtener de ZyxBot?
-**Respuesta:** 
-ZyxBot está diseñado para proporcionarte información detallada sobre las universidades inscritas en el Consejo Nacional de Universidades de Nicaragua (CNU). Puedes obtener datos sobre programas académicos, ubicación, requisitos de admisión, y más. Además, ZyxBot puede proporcionarte consejos y recomendaciones personalizadas para tu búsqueda educativa.
+<details>
+  <summary><strong>¿Qué tipo de información puedo obtener de ZyxBot?</strong></summary><br>
+  <strong>Respuesta:</strong>
+  <p>ZyxBot está diseñado para proporcionarte información detallada sobre las universidades inscritas en el Consejo Nacional de Universidades de Nicaragua (CNU). Puedes obtener datos sobre programas académicos, ubicación, requisitos de admisión y más. Además, ZyxBot puede proporcionarte consejos y recomendaciones personalizadas para tu búsqueda educativa.</p>
+</details>
 
-### ¿Cómo puedo obtener recomendaciones de universidades específicas?
-**Respuesta:** 
-Para obtener recomendaciones de universidades específicas, simplemente inicia una conversación con ZyxBot y cuéntale tus preferencias y objetivos educativos. ZyxBot utilizará esta información para proporcionarte sugerencias adaptadas a tus necesidades.
+<details>
+  <summary><strong>¿Cómo puedo obtener recomendaciones de universidades específicas?</strong></summary><br>
+  <strong>Respuesta:</strong>
+  <p>Para obtener recomendaciones de universidades específicas, simplemente inicia una conversación con ZyxBot y cuéntale tus preferencias y objetivos educativos. ZyxBot utilizará esta información para proporcionarte sugerencias adaptadas a tus necesidades.</p>
+</details>
 
-### ¿Qué hago si encuentro un problema técnico o necesito asistencia?
-**Respuesta:** 
-Si encuentras algún problema técnico mientras usas ZyxBot o necesitas asistencia, puedes contactarnos directamente desde la página oficial de ZyxBot. Ve a la sección de "Soporte" y describe el problema que estás experimentando. Nuestro equipo de soporte estará encantado de ayudarte.
+<details>
+  <summary><strong>¿Qué hago si encuentro un problema técnico o necesito asistencia?</strong></summary><br>
+  <strong>Respuesta:</strong>
+  <p>Si encuentras algún problema técnico mientras usas ZyxBot o necesitas asistencia, puedes contactarnos directamente desde la página oficial de ZyxBot. Ve a la sección de "Soporte" y describe el problema que estás experimentando. Nuestro equipo de soporte estará encantado de ayudarte.</p>
+</details>
 
-### ¿Puedo utilizar ZyxBot en dispositivos móviles?
-**Respuesta:** 
-¡Claro! ZyxBot es totalmente compatible con dispositivos móviles. Puedes acceder a nuestro sitio web desde tu smartphone o tablet para obtener información sobre universidades en cualquier momento y lugar.
+<details>
+  <summary><strong>¿Puedo utilizar ZyxBot en dispositivos móviles?</strong></summary><br>
+  <strong>Respuesta:</strong>
+  <p>¡Claro! ZyxBot es totalmente compatible con dispositivos móviles. Puedes acceder a nuestro sitio web desde tu smartphone o tablet para obtener información sobre universidades en cualquier momento y lugar.</p>
+</details>
