@@ -42,14 +42,13 @@
 <table>
   <tr>
     <td width="50%">
-      <img src="https://github.com/IsseiSenpai/Doxyger/blob/main/1.webp" alt="Imagen de ZyxBot">
+      <img src="https://github.com/IsseiSenpai/Doxyger/blob/main/MockupComputadora2.png" alt="Imagen de ZyxBot">
     </td>
     <td width="50%">
-      <img src="https://github.com/IsseiSenpai/Doxyger/blob/main/1.webp" alt="Imagen de ZyxBot">
+      <img src="https://github.com/IsseiSenpai/Doxyger/blob/main/MockupComputadora3.png" alt="Imagen de ZyxBot">
     </td>
   </tr>
 </table>
-
 
 ## Guía de Uso
 ### Registro y Configuración
