@@ -21,7 +21,7 @@
     </td>
     <td width="50%">
       <p align="right">
-        <img src="https://ruta_de_tu_imagen" alt="Imagen de ZyxBot">
+        <img src="https://github.com/IsseiSenpai/Doxyger/blob/main/1.webp" alt="Imagen de ZyxBot">
       </p>
     </td>
   </tr>
@@ -38,6 +38,18 @@
 
 ## Alcance
 <div align="justify">Este manual cubre todas las funciones principales de ZyxBot, incluida la búsqueda de información sobre universidades inscritas en el Consejo Nacional de Universidades de Nicaragua, asistencia virtual, recomendaciones educativas y más. Si bien se esfuerza por ser completo, algunas características avanzadas pueden no estar incluidas.</div>
+
+<table>
+  <tr>
+    <td width="50%">
+      <img src="https://github.com/IsseiSenpai/Doxyger/blob/main/1.webp" alt="Imagen de ZyxBot">
+    </td>
+    <td width="50%">
+      <img src="https://github.com/IsseiSenpai/Doxyger/blob/main/1.webp" alt="Imagen de ZyxBot">
+    </td>
+  </tr>
+</table>
+
 
 ## Guía de Uso
 ### Registro y Configuración
