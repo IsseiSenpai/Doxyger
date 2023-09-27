@@ -1,9 +1,9 @@
 <div align="center">
-  <h1 style="color: darkblue;">Manual de Uso de ZyxBot</h1>
+  <h1 style="color: darkblue">Manual de Uso de ZyxBot</h1>
 </div>
 
 <p align="center">
-  <img src="https://ruta_de_tu_imagen" alt="Logo de ZyxBot">
+  <img src="https://github.com/IsseiSenpai/Doxyger/blob/main/Banner-ChatBot.png?raw=true" alt="Logo de ZyxBot">
 </p>
 
 <table>
